@@ -4,7 +4,10 @@ import React from 'react';
 function page() {
     return (
         <div>
-            <Sidebar/>gir
+            <Sidebar/>
+            <div className='w-full bg-white'>
+
+            </div>
         </div>
     );
 }
