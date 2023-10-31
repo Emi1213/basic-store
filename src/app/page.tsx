@@ -1,4 +1,4 @@
-import Sidebar from '@/Components/Sidebar'
+import Navbar from '@/Components/Navbar'
 import Image from 'next/image'
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main >
         <nav className='fixed top-0 w-full bg-gray-800  z-10'>
-          <Sidebar/>
+          <Navbar/>
         </nav>
           <div className='w-full bg-white flex justify-center items-center z-11 '>
             <div className='w-full h-screen overflow-hidden relative'>
